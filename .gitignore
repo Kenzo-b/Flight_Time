@@ -1,4 +1,2 @@
 .idea/
-dist/
-build/
-main.spec
+.idea/*
