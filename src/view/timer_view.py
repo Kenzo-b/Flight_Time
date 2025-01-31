@@ -3,7 +3,7 @@ from typing import override
 from PIL import Image
 from customtkinter import CTkFrame, CTkLabel, CTkButton, CTkImage
 
-from assets.sounds import beep
+from assets.sounds.beep import beep
 from src.lib.base_observer import BaseObserver
 from src.view_model.timer_viewmodel import TimerViewModel
 

@@ -54,7 +54,7 @@ class TimerViewModel(BaseObservable):
 
     @notify
     def skip_round(self):
-        self._models['timer_model'].stop()
+        self._stop_timer()
         self.set_duration(10)
         self._next_round()
 
